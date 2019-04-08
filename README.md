@@ -1,6 +1,6 @@
-#IOS Project 1
+# IOS Project 1
 
-##A shell script to view and filter apache logs.
+## A shell script to view and filter apache logs.
 
 POSIXly correct
 Works in: Linux, FreeBSD
