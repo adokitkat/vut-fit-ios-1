@@ -2,30 +2,34 @@
 
 ## A shell script to view and filter apache logs.
 
+Prints result to STDOUT. 
+
 POSIXly correct
+
 Works in: Linux, FreeBSD
+
 Should work in: MacOS
 
 Flags:
 ```
--a YYYY-MM-DD HH:MM:SS  - Search after date
--b YYYY-MM-DD HH:MM:SS  - Search before date
--ip IPv4|IPv6           - Search IP
--uri URI                - Search URI
+-a YYYY-MM-DD HH:MM:SS  - Find entries after date
+-b YYYY-MM-DD HH:MM:SS  - Find entries before date
+-ip IPv4|IPv6           - Find by specified IP
+-uri URI                - Find by specified URI
 ```
 
 Commands:
 ```
-list-ip
-list-host
-list-uri
+list-ip    - Lists IPs
+list-host  - Lists hosts
+list-uri   - Lists URIs
 hist-ip    - Creates histogram of IPs
 hist-load  - Creates histogram of load
 ```
 
 Usage:
 ```
-./wana [filter flags - OPTIONAL] [command] [log [log2 [...]]]
+./wana [filter flags - OPTIONAL] [command - OPTIONAL] [log [log2 [...]] - When no log is provided, reads from STDIN]
 ```
 Example:
 ```
