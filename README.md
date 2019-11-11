@@ -4,11 +4,11 @@
 
 Prints result to STDOUT. 
 
-POSIXly correct
+POSIX-ly correct
 
-Works in: Linux, FreeBSD
+Works on: Linux, FreeBSD
 
-Should work in: MacOS
+Should work on: MacOS
 
 Flags:
 ```
