@@ -1,14 +1,12 @@
-# IOS Project 1
-
-## A shell script to view and filter apache logs.
+# Shell script to view and filter apache log files
 
 Prints result to STDOUT. 
 
-POSIX-ly correct
+POSIX-ly correct.
 
-Works on: Linux, FreeBSD
+Works on: ```Linux, FreeBSD```
 
-Should work on: MacOS
+Untested: ```MacOS```
 
 Flags:
 ```
